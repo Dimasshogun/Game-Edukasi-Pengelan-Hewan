@@ -1549,8 +1549,8 @@ MonoBehaviour:
   blockPanel: {fileID: 432873615}
   source: {fileID: 1620553549}
   correct:
-  - {fileID: 8300000, guid: 8a1043e81cb40f6448262ff07e8387d5, type: 3}
-  incorrect: {fileID: 8300000, guid: 377179aacc3ae9f498da8ca5d90ac96d, type: 3}
+  - {fileID: 8300000, guid: 0e8c52b2e6ad4234fb45c9400631b1f7, type: 3}
+  incorrect: {fileID: 8300000, guid: 3b8684399ba1b87409bc8f610ddbb33d, type: 3}
   PausePanel: {fileID: 0}
 --- !u!4 &1620553548
 Transform:
