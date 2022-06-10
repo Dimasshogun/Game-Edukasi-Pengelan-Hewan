@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Manager : MonoBehaviour {
+public class ManagerLima : MonoBehaviour {
 
-    public GameObject bendaSatu, bendaDua, bendaTiga, bendaEmpat , bendaSatuBlack, bendaDuaBlack, bendaTigaBlack, bendaEmpatBlack,blockPanel;
+    public GameObject bendaSatu, bendaDua, bendaTiga, bendaEmpat , bendaLima, bendaSatuBlack, bendaDuaBlack, bendaTigaBlack, bendaEmpatBlack, bendaLimaBlack, blockPanel;
 
 
-    Vector3 initialbendaSatuPosition, initialbendaDuaPosition, initialbendaTigaPosition, initialbendaEmpatPosition;
+    Vector3 initialbendaSatuPosition, initialbendaDuaPosition, initialbendaTigaPosition, initialbendaEmpatPosition, initialbendaLimaPosition ;
 
-    bool bendaSatuBool, bendaDuaBool, bendaTigaBool, bendaEmpatBool = false;
+    bool bendaSatuBool, bendaDuaBool, bendaTigaBool, bendaEmpatBool, bendaLimaBool = false;
 
     public AudioSource source;
     public AudioClip[] correct;
@@ -27,7 +27,7 @@ public class Manager : MonoBehaviour {
         initialbendaDuaPosition = bendaDua.transform.position;
         initialbendaTigaPosition = bendaTiga.transform.position;
         initialbendaEmpatPosition = bendaEmpat.transform.position;
-        // initialPosition = .transform.position;
+        initialbendaLimaPosition= bendaLima.transform.position;
 
     }
 
@@ -68,12 +68,12 @@ public class Manager : MonoBehaviour {
 
     }
 
-    // public void Drag()
-    // {
+    public void DragbendaLima()
+    {
        
-    //     .transform.position = Input.mousePosition;
+         bendaLima.transform.position = Input.mousePosition;
         
-    // }
+    }
 
 
 
@@ -171,9 +171,34 @@ public class Manager : MonoBehaviour {
 
     }
 
+
+    public void DropbendaLima()
+    {
+
+        float distance = Vector3.Distance(bendaLima.transform.position, bendaLimaBlack.transform.position);
+        if (distance < 50)
+        {
+            bendaLima.transform.position = bendaLimaBlack.transform.position;
+            bendaLima.transform.localScale = bendaLimaBlack.transform.localScale;
+            bendaLimaBool = true;
+            source.clip = correct[Random.Range(0, correct.Length)];
+            source.Play();
+        }
+        else
+        {
+            bendaLima.transform.position = initialbendaLimaPosition;
+            source.clip = incorrect;
+            source.Play();
+        }
+
+
+
+    }
+
+
      void Update()
     {
-        if(bendaSatuBool && bendaDuaBool && bendaTigaBool && bendaEmpatBool )
+        if(bendaSatuBool && bendaDuaBool && bendaTigaBool && bendaEmpatBool && bendaLimaBool )
         {
 
             StartCoroutine(LoadNextScene());

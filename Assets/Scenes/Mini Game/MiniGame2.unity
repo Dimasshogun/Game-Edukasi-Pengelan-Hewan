@@ -292,7 +292,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 800, y: 252}
+  m_AnchoredPosition: {x: 800, y: 177}
   m_SizeDelta: {x: 173.7201, y: 234.135}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &192846738
@@ -313,7 +313,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1620553547}
-          m_TargetAssemblyTypeName: Manager, Assembly-CSharp
+          m_TargetAssemblyTypeName: ManagerLima, Assembly-CSharp
           m_MethodName: DragbendaEmpat
           m_Mode: 1
           m_Arguments:
@@ -329,7 +329,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1620553547}
-          m_TargetAssemblyTypeName: Manager, Assembly-CSharp
+          m_TargetAssemblyTypeName: ManagerLima, Assembly-CSharp
           m_MethodName: DropbendaEmpat
           m_Mode: 1
           m_Arguments:
@@ -417,15 +417,15 @@ RectTransform:
   m_GameObject: {fileID: 197173362}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.79107, y: 0.79107, z: 0.79107}
   m_Children: []
   m_Father: {fileID: 861790879}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -629, y: 24}
-  m_SizeDelta: {x: 533.4158, y: 537.3922}
+  m_AnchoredPosition: {x: -659.39594, y: -10}
+  m_SizeDelta: {x: 679.372, y: 571.734}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &197173364
 MonoBehaviour:
@@ -447,7 +447,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9157e7a7f58e5534b8f8a05e9eb82a70, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 329cbfd3f92ea0945a6e7ac324608361, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -501,7 +501,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -90.09802, y: -272.74405}
+  m_AnchoredPosition: {x: -273, y: -232}
   m_SizeDelta: {x: 180.2, y: 209.5734}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &333490208
@@ -549,7 +549,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1988741987358706438, guid: 2854fe22db3fa6540880656d4362f40d, type: 3}
+  m_Sprite: {fileID: -6468870294956752037, guid: 2854fe22db3fa6540880656d4362f40d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -638,13 +638,147 @@ RectTransform:
   - {fileID: 135823574}
   - {fileID: 1084247599}
   m_Father: {fileID: 861790879}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &438366016
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 438366017}
+  - component: {fileID: 438366021}
+  - component: {fileID: 438366020}
+  - component: {fileID: 438366019}
+  - component: {fileID: 438366018}
+  m_Layer: 5
+  m_Name: 5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &438366017
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438366016}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 861790879}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 277, y: 177}
+  m_SizeDelta: {x: 173.7201, y: 234.135}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &438366018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438366016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 5
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1620553547}
+          m_TargetAssemblyTypeName: ManagerLima, Assembly-CSharp
+          m_MethodName: DragbendaLima
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 14
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1620553547}
+          m_TargetAssemblyTypeName: ManagerLima, Assembly-CSharp
+          m_MethodName: DropbendaLima
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &438366019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438366016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c0578910bbe00d43919a92c7b9893fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &438366020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438366016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -6627588419968175311, guid: 2854fe22db3fa6540880656d4362f40d, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &438366021
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438366016}
+  m_CullTransparentMesh: 1
 --- !u!1 &464500192
 GameObject:
   m_ObjectHideFlags: 0
@@ -795,6 +929,108 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 486317588}
   m_CullTransparentMesh: 1
+--- !u!1 &546697887
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 546697888}
+  - component: {fileID: 546697892}
+  - component: {fileID: 546697891}
+  - component: {fileID: 546697890}
+  - component: {fileID: 546697889}
+  m_Layer: 5
+  m_Name: 5 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &546697888
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 546697887}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 784520664}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 798.4007, y: -225}
+  m_SizeDelta: {x: 167.9094, y: 209.5734}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &546697889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 546697887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+--- !u!114 &546697890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 546697887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c0578910bbe00d43919a92c7b9893fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &546697891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 546697887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.047169805, g: 0.044277318, b: 0.044277318, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -6627588419968175311, guid: 2854fe22db3fa6540880656d4362f40d, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &546697892
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 546697887}
+  m_CullTransparentMesh: 1
 --- !u!1 &784520663
 GameObject:
   m_ObjectHideFlags: 0
@@ -826,6 +1062,7 @@ RectTransform:
   - {fileID: 1739623291}
   - {fileID: 976946527}
   - {fileID: 1444510007}
+  - {fileID: 546697888}
   m_Father: {fileID: 861790879}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -997,8 +1234,9 @@ RectTransform:
   - {fileID: 1357102112}
   - {fileID: 1990492999}
   - {fileID: 192846737}
-  - {fileID: 432873618}
+  - {fileID: 438366017}
   - {fileID: 197173363}
+  - {fileID: 432873618}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1043,7 +1281,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 523, y: -266.46}
+  m_AnchoredPosition: {x: 292, y: -226}
   m_SizeDelta: {x: 163.2829, y: 209.5734}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &976946528
@@ -1091,7 +1329,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7290733810998442457, guid: 2854fe22db3fa6540880656d4362f40d, type: 3}
+  m_Sprite: {fileID: 4043306336075874107, guid: 2854fe22db3fa6540880656d4362f40d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1307,7 +1545,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 216, y: 251.99998}
+  m_AnchoredPosition: {x: 26, y: 176.99998}
   m_SizeDelta: {x: 178.3464, y: 234.135}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1357102113
@@ -1328,7 +1566,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1620553547}
-          m_TargetAssemblyTypeName: Manager, Assembly-CSharp
+          m_TargetAssemblyTypeName: ManagerLima, Assembly-CSharp
           m_MethodName: DragbendaDua
           m_Mode: 1
           m_Arguments:
@@ -1344,7 +1582,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1620553547}
-          m_TargetAssemblyTypeName: Manager, Assembly-CSharp
+          m_TargetAssemblyTypeName: ManagerLima, Assembly-CSharp
           m_MethodName: DropbendaDua
           m_Mode: 1
           m_Arguments:
@@ -1387,7 +1625,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 586987845303009276, guid: 2854fe22db3fa6540880656d4362f40d, type: 3}
+  m_Sprite: {fileID: -3823000446927642643, guid: 2854fe22db3fa6540880656d4362f40d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1504,7 +1742,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 798.4007, y: -251.78671}
+  m_AnchoredPosition: {x: 540, y: -225}
   m_SizeDelta: {x: 167.9094, y: 209.5734}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1620553546
@@ -1516,9 +1754,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1620553548}
-  - component: {fileID: 1620553547}
   - component: {fileID: 1620553549}
   - component: {fileID: 1620553550}
+  - component: {fileID: 1620553547}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: Untagged
@@ -1535,17 +1773,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 1620553546}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c277f2e3f4d7d624fbb57c3d16e650a0, type: 3}
+  m_Script: {fileID: 11500000, guid: 56452ddf70e341c439c86ce0bcfebf3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   bendaSatu: {fileID: 1909908212}
   bendaDua: {fileID: 1357102111}
   bendaTiga: {fileID: 1990492998}
   bendaEmpat: {fileID: 192846736}
+  bendaLima: {fileID: 438366016}
   bendaSatuBlack: {fileID: 333490206}
   bendaDuaBlack: {fileID: 1739623290}
   bendaTigaBlack: {fileID: 976946526}
   bendaEmpatBlack: {fileID: 1444510002}
+  bendaLimaBlack: {fileID: 546697887}
   blockPanel: {fileID: 432873615}
   source: {fileID: 1620553549}
   correct:
@@ -1789,7 +2029,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 196, y: -266.46}
+  m_AnchoredPosition: {x: 6, y: -233}
   m_SizeDelta: {x: 172.5359, y: 209.5734}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1739623292
@@ -1837,7 +2077,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 586987845303009276, guid: 2854fe22db3fa6540880656d4362f40d, type: 3}
+  m_Sprite: {fileID: -3823000446927642643, guid: 2854fe22db3fa6540880656d4362f40d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1984,7 +2224,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 530, y: 251.99998}
+  m_AnchoredPosition: {x: 530, y: 176.99998}
   m_SizeDelta: {x: 169.0935, y: 234.135}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1909908214
@@ -2005,7 +2245,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1620553547}
-          m_TargetAssemblyTypeName: Manager, Assembly-CSharp
+          m_TargetAssemblyTypeName: ManagerLima, Assembly-CSharp
           m_MethodName: DragbendaSatu
           m_Mode: 1
           m_Arguments:
@@ -2021,7 +2261,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1620553547}
-          m_TargetAssemblyTypeName: Manager, Assembly-CSharp
+          m_TargetAssemblyTypeName: ManagerLima, Assembly-CSharp
           m_MethodName: DropbendaSatu
           m_Mode: 1
           m_Arguments:
@@ -2064,7 +2304,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1988741987358706438, guid: 2854fe22db3fa6540880656d4362f40d, type: 3}
+  m_Sprite: {fileID: -6468870294956752037, guid: 2854fe22db3fa6540880656d4362f40d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2118,7 +2358,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -91.041, y: 251.99998}
+  m_AnchoredPosition: {x: -247, y: 176.99998}
   m_SizeDelta: {x: 182.0814, y: 234.135}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1990493000
@@ -2139,7 +2379,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1620553547}
-          m_TargetAssemblyTypeName: Manager, Assembly-CSharp
+          m_TargetAssemblyTypeName: ManagerLima, Assembly-CSharp
           m_MethodName: DragbendaTiga
           m_Mode: 1
           m_Arguments:
@@ -2155,7 +2395,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1620553547}
-          m_TargetAssemblyTypeName: Manager, Assembly-CSharp
+          m_TargetAssemblyTypeName: ManagerLima, Assembly-CSharp
           m_MethodName: DropbendaTiga
           m_Mode: 1
           m_Arguments:
@@ -2198,7 +2438,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7290733810998442457, guid: 2854fe22db3fa6540880656d4362f40d, type: 3}
+  m_Sprite: {fileID: 4043306336075874107, guid: 2854fe22db3fa6540880656d4362f40d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
